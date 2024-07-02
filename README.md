@@ -41,3 +41,8 @@
         "created_at": 1719937941
     }
    ```
+- Dai só fazer a request que voce adicionou o before_action
+  ```
+    curl --location 'http://localhost:3000/api/v1/users' \
+    --header 'Authorization: Bearer oMEX5_dA2Xuf-Jb6n_aVdStzERrDTNx42u_vBnt2XEw'
+  ```
